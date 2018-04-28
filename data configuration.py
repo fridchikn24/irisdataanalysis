@@ -1,8 +1,7 @@
-import pandas as pd 
-import NumPy as NumPy
-from pandas import series, dataframe
+from pandas import read_csv, DataFrame
+import numpy
 
+idf = DataFrame()
+idf = read_csv('iris data.csv', names = ['sepal length', 'sepal width', 'petal length', 'petal width', 'iris class'])
 
-idf = pd.dataframe()
-idf = pd.read_csv('irisdata.csv', header = ['sepal lenth', 'sepal width','petal length', 'petal width', 'iris class'])
-
+t = 1
