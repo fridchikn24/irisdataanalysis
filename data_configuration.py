@@ -9,7 +9,7 @@ def iris_get():
     return idf
 
 def data_split(bigframe, string):
-    newdf = bigframe.loc['string']
+    newdf = bigframe.loc[string]
     return newdf
 
 def sig_values(frame):
